@@ -1,0 +1,103 @@
+/*Color Database
+	Forest Green: #02590d
+	Dark Graying Green: #425144
+	Light Orange: #f0b640
+	Black: #000000
+	Light Gray: #a5a7a4
+*/
+
+body { 
+	color: #555555; 
+	background: #425144; /*This helps a little with the flash while the background loads in*/
+	background-image: url(background.jpg); 
+	font-family: Verdana, Arial, sans-serif;
+}
+header {
+	background-color: #425144;
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 30px;
+}
+header a{
+	text-decoration: none;
+}
+header a:link{
+	color: #FFFFFF;
+}
+header a:visited{
+	color: #FFFFFF;
+}
+header a:hover{
+	color: #f0b640;
+}
+h1 { 
+	margin-bottom: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	margin-top: 0px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+h2   { 
+	color: #000000;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #000033;
+}
+nav  { 
+	font-weight: bold;
+	padding: 0;
+	font-size: 120%;
+	text-align: center;
+}
+nav a {
+	text-decoration: none;
+}
+nav li{
+	border: none;
+}
+nav ul{
+	padding-left: 0;
+	font-size: 1em;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;	
+}
+nav a:link{
+	color: #000000;
+}
+nav a:visited{
+	color: #000000;
+}
+nav a:hover{
+	color: #f0b640;
+}
+main {
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	background-color: #FFFFFF;
+}	
+footer{
+	font-style: italic;
+	font-size: 75%;
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;
+	padding: 2em;
+	background-color: #FFFFFF;
+	margin-right: 190px;
+}
+footer a {
+	color: #f0b640
+}
+#wrapper{
+	background-color: #a5a7a4;
+	margin: auto;
+	width: 80%;
+	border: 1px #000000 solid;
+}
