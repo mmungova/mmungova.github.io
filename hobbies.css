@@ -95,6 +95,9 @@ footer{
 footer a {
 	color: #f0b640
 }
+table, th, td {
+	border: 1px, solid;
+}
 #wrapper{
 	background-color: #a5a7a4;
 	margin: auto;
